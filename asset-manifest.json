@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/slacks-or-deep-slacks/static/js/main.32411588.chunk.js",
-    "main.js.map": "/slacks-or-deep-slacks/static/js/main.32411588.chunk.js.map",
+    "main.js": "/slacks-or-deep-slacks/static/js/main.57754cfd.chunk.js",
+    "main.js.map": "/slacks-or-deep-slacks/static/js/main.57754cfd.chunk.js.map",
     "runtime-main.js": "/slacks-or-deep-slacks/static/js/runtime-main.f54acc00.js",
     "runtime-main.js.map": "/slacks-or-deep-slacks/static/js/runtime-main.f54acc00.js.map",
     "static/css/2.093d98ae.chunk.css": "/slacks-or-deep-slacks/static/css/2.093d98ae.chunk.css",
     "static/js/2.52d17a3d.chunk.js": "/slacks-or-deep-slacks/static/js/2.52d17a3d.chunk.js",
     "static/js/2.52d17a3d.chunk.js.map": "/slacks-or-deep-slacks/static/js/2.52d17a3d.chunk.js.map",
     "index.html": "/slacks-or-deep-slacks/index.html",
-    "precache-manifest.ddc3aad9cdcadcdd12bea4f54fad87b2.js": "/slacks-or-deep-slacks/precache-manifest.ddc3aad9cdcadcdd12bea4f54fad87b2.js",
+    "precache-manifest.9c814c168e46a91a521d9ca8af4599f1.js": "/slacks-or-deep-slacks/precache-manifest.9c814c168e46a91a521d9ca8af4599f1.js",
     "service-worker.js": "/slacks-or-deep-slacks/service-worker.js",
     "static/css/2.093d98ae.chunk.css.map": "/slacks-or-deep-slacks/static/css/2.093d98ae.chunk.css.map",
     "static/js/2.52d17a3d.chunk.js.LICENSE.txt": "/slacks-or-deep-slacks/static/js/2.52d17a3d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f54acc00.js",
     "static/css/2.093d98ae.chunk.css",
     "static/js/2.52d17a3d.chunk.js",
-    "static/js/main.32411588.chunk.js"
+    "static/js/main.57754cfd.chunk.js"
   ]
 }
