@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/slacks-or-deep-slacks/precache-manifest.dc2fb90049114c36de7a336a6a24d283.js"
+  "/slacks-or-deep-slacks/precache-manifest.ddc3aad9cdcadcdd12bea4f54fad87b2.js"
 );
 
 self.addEventListener('message', (event) => {
