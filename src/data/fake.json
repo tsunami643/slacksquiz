@@ -1,22 +1,462 @@
 [
-    "there is no greater desepration than to dance to the beat of one's own drum solo",
-    "Advice to new or first time dota 2 streamers: don't stream the first three games of the day, and don't stream the last three games of the day. Don't stream any of the games",
-    "I dont believe in Santa unless he is old as fuck",
-    "it would appear that @PlayArtifact is the latest victim of \"everyone knows everyone\" and my latest victim is no exception. Evil times indeed",
-    "Some people think dota lore is my cup of tea but I fucking hate tea",
-    "The human race is teetering on the edge of extinction. The only hope for the future is the PRESENCE of the elusive perfect pug",
-    "I woke up at 4am to make some bacon, then slept at home all day and woke up at 5am to make bacon then slept at home all day",
-    "There must be a way to see invisible enemies if you look closely enough",
-    "goddayum anyone out there ever feel like the media are giving too much airtime to people who are actually great at something? Focusing too much attention on a small handful of people who are actually great at something does a disservice to the subject.",
-    "Uploading \"Tickled to death by Pankek\"",
-    "Broke down and finally listened to a streetlight manifesto song that made me feel better about eating cat food",
-    "this will be the most controversial DECKPACITO yet",
-    "Just read \"a town where art is not celebrated\" cause i had no idea what was happening i also had no idea what was going on. Then i went to the bookstore and bought a copy. I need to study drama. Anyway, back to work!",
-    "Every time I watch a sports movie at home I feel a twinge of guilt, how can someone get away with this shit",
-    "mfw my hot woman wants to get married and i want to get the wife as well. Any ideas how to make this work?",
-    "gotta start somethings off on a high note! AHOOOOOOOO OOOOOOOOOOOOOOOOOOOOOOOOOOO OOOOOOOOOOOOOOOOOOOOO",
-    "Every year we get asked \"what is the saddest day of the year\" and every year I answer \"this day is the saddest day of the year you dumbass mortal fuck\"",
-    "Had more fun today thgan I have had in weeks! First @DotaUnderlords then @DotaOverlords then @DotaUnderlords all on one stream for the entiere half hour first thing in the morning",
-    "Up next: ATLANTIS LOREGASM",
-    "If i ever own a dota 2 team i am going to tell them all \"just pick an objective hero\" and \"go kill 100 enemies\" and i might just get rich"
+    {
+        "link": null,
+        "text": "the only time i ever feel bad is if u play god, in which case i can't win god i guess we all just have to go fuck ourselves"
+    },
+    {
+        "link": null,
+        "text": "TIL i trusted no one else would find my hideout but now i cant find it"
+    },
+    {
+        "link": null,
+        "text": "Most dont believe in pythons but they do believe in power lines"
+    },
+    {
+        "link": null,
+        "text": "Oh Jesus there's blood in the fishbowl"
+    },
+    {
+        "link": null,
+        "text": "No shave November is over...time for stumptown SEPTEMBER...Growl"
+    },
+    {
+        "link": null,
+        "text": "Just finished the mofuckin novella that started this whole thing. Expect an upload to the day before Thanksgiving."
+    },
+    {
+        "link": null,
+        "text": "We have entered the dark ages Mr roo"
+    },
+    {
+        "link": null,
+        "text": "The Grand Master wanted me to post this photo of myself holding an oversized doughnut and u are welcome to eat whatever you want but u wont see me again"
+    },
+    {
+        "link": null,
+        "text": "my dota 2 friends: would you watch any poetry slams between the midas mode and gladiator mode memes on twitter? We are in a meme pit and im nothin about how to pitch this one mate"
+    },
+    {
+        "link": null,
+        "text": "U guys ever watch a movie before bed? Teasing them out with your brainwaves is one of my favorite things to do. What a great night to go to sleep knowing you contributed to the thought process that led to the best possible outcome"
+    },
+    {
+        "link": null,
+        "text": "Satan is dead...but the 1% still run"
+    },
+    {
+        "link": null,
+        "text": "Satan unzips his pants and begins to masturbate"
+    },
+    {
+        "link": null,
+        "text": "im playin artifact again why are there no fuk u idiots"
+    },
+    {
+        "link": null,
+        "text": "Is it wierd that sometimes i daydream about being a warthog pilot"
+    },
+    {
+        "link": null,
+        "text": "One month later and I am a pro player again. Viva la pro!"
+    },
+    {
+        "link": null,
+        "text": "Will the new 'ingratiating' feature be usable in EU? Or only NA people? Im concerned about these people"
+    },
+    {
+        "link": null,
+        "text": "Everything is Ok. I just slept like an egg. I slept for 5 hours and I am wide awake at 30 minute intervals for the next 4 hours. I see a ghost. I know I am dreaming. I will not allow this nightmare to ever happen again"
+    },
+    {
+        "link": null,
+        "text": "Today is dyson strim day, rev up your vacyums"
+    },
+    {
+        "link": null,
+        "text": "Just had a e-talk w people in my life whats the story my new love"
+    },
+    {
+        "link": null,
+        "text": "I'm a genie. Shut up and smell something"
+    },
+    {
+        "link": null,
+        "text": "We can't have nice things happen to us at launch its bad for business and makes us look bad later when people complain"
+    },
+    {
+        "link": null,
+        "text": "A game of dota 2 is 900 seconds"
+    },
+    {
+        "link": null,
+        "text": "gonna do a mini episode of DECKPACITO in about 40 minutes, talking about why they didn't draw dicks in fantasia"
+    },
+    {
+        "link": null,
+        "text": "real sad that \"aggressively kind\" people can be so cruel to one another"
+    },
+    {
+        "link": null,
+        "text": "Going to Bronycon, going to be there, be the best man, and maybe even win some cool shit. JAPANESE DAD"
+    },
+    {
+        "link": null,
+        "text": "good omni pick imma keep havin this baby"
+    },
+    {
+        "link": null,
+        "text": "Will the addition of sea lion shake up the meta much? Let's find out!"
+    },
+    {
+        "link": null,
+        "text": "im dressing as women for the first time in ages! Gonna start with the goddesses and then move on to the titans and the like."
+    },
+    {
+        "link": null,
+        "text": "If you missed the group or if u are part of another casts that likes dota 2 esports, do not @ me. I will not tolerate disrespect and I will not stand for it"
+    },
+    {
+        "link": null,
+        "text": "Oh lord I love this year the dankness is fucking hilarious"
+    },
+    {
+        "link": null,
+        "text": "never met a bad pug true story guys"
+    },
+    {
+        "link": null,
+        "text": "Howdy y'all, here is the story behind the reason I got the name chunky chunky"
+    },
+    {
+        "link": null,
+        "text": "Mr roo is finally able to run after all these years of helping me get into the kitchen. Mr roo lets be dads"
+    },
+    {
+        "link": null,
+        "text": "They said \"we need to replace that jaw\" i said \"Jaw of Ragnaros\""
+    },
+    {
+        "link": null,
+        "text": "I sat next to batman for 2 hours and 30 min"
+    },
+    {
+        "link": null,
+        "text": "90% of the women in my life are online and thats fine im still in love with em all. Also they all hate underlords"
+    },
+    {
+        "link": null,
+        "text": "Blizzard finally releases Orgasm v0.9"
+    },
+    {
+        "link": null,
+        "text": "every time i have ptsd it makes me stronger bc i pick meds that have a higher chance of causing lasting side effects"
+    },
+    {
+        "link": null,
+        "text": "One minute you are at dinner, and the next minute you are at Starbucks doing your thing until your tummy begins to explode"
+    },
+    {
+        "link": null,
+        "text": "No need to sugar coat it, people. Those tits can take it."
+    },
+    {
+        "link": null,
+        "text": "Things may look bleak at first but be patient, the workers at the starfruit mine are hard at work. The location of the mutton bomb was also revealed...are you ready for the nightmare of 3 hour wait"
+    },
+    {
+        "link": null,
+        "text": "It's been awhile since i last did ANYTHING LATE GAME"
+    },
+    {
+        "link": null,
+        "text": "There should be a monthly event where people are considered the \"most epic human being\" and the winner is the one who applies a month before the deadline."
+    },
+    {
+        "link": null,
+        "text": "When i wear hats it makes me look like an idiot. But I get paid to look like an idiot that much is clear"
+    },
+    {
+        "link": null,
+        "text": "TODAY we celebrate Mother's Day with a midnight snack, one which will keep your teeth clean for the day and which you wont regret"
+    },
+    {
+        "link": null,
+        "text": "Real men talk when they get laid"
+    },
+    {
+        "link": null,
+        "text": "Finally have some FUN in life by running into the dogpark and getting rekt"
+    },
+    {
+        "link": null,
+        "text": "I hate cancer anyone who has been through it knows what I am talking about"
+    },
+    {
+        "link": null,
+        "text": "I KNOWTAH DOTA"
+    },
+    {
+        "link": null,
+        "text": "why does every game start with dota 2 story mode"
+    },
+    {
+        "link": null,
+        "text": "do you speak Korean please answer honestly"
+    },
+    {
+        "link": null,
+        "text": "timbershark!"
+    },
+    {
+        "link": null,
+        "text": "There must be a reason that every time you play ranked, there is a different opponent each time. I cannot fathom why. What is the logic?"
+    },
+    {
+        "link": null,
+        "text": "At the international we play a game where we vote on the music and the best way to pronounce \"doom boi\" is \"doom boomi\""
+    },
+    {
+        "link": null,
+        "text": "I NEED TO STOP LEARNING LORE"
+    },
+    {
+        "link": null,
+        "text": "Every time I drink water I feel like the universe is conspiring to make me have a neurosis where I can't move or talk, which is pretty messed up"
+    },
+    {
+        "link": null,
+        "text": "My british tourist card urges women to think about the potential for increased risks to health should they choose to breast feed their children"
+    },
+    {
+        "link": null,
+        "text": "i did a live stream of my tambourine playing with the new version of speech synthesiser that is live at the moment"
+    },
+    {
+        "link": null,
+        "text": "if you are a pyromaniac you are needed and you are very welcome here"
+    },
+    {
+        "link": null,
+        "text": "tryin something new. If you are a dota 2 personality, what is the most annoying thing someone has said to you in a game so far? Sound off!"
+    },
+    {
+        "link": null,
+        "text": "Oh yeahh give me the remote and i'll play thunder god right in my bed"
+    },
+    {
+        "link": null,
+        "text": "All i wanna do is sleep. All i wanna do is think. All i wanna do is habe tijds a ending to this story"
+    },
+    {
+        "link": null,
+        "text": "This little mouse always knew when to quiet down"
+    },
+    {
+        "link": null,
+        "text": "The line between fun and serious is getting more and more blurred every day"
+    },
+    {
+        "link": null,
+        "text": "I haven't seen a witch in ages"
+    },
+    {
+        "link": null,
+        "text": "Time to go thru all the drawers in the house"
+    },
+    {
+        "link": null,
+        "text": "Mistresses of a high class gentlemen such as myself are very fortunate to meet like minded individuals"
+    },
+    {
+        "link": null,
+        "text": "The moon has been gone since 2010 what a strange year indeed"
+    },
+    {
+        "link": null,
+        "text": "Who says Dota 2 tournaments need to be \"perfect\" these days? Just look at the past 8 months."
+    },
+    {
+        "link": null,
+        "text": "No need to remind me again how bad i am at this game"
+    },
+    {
+        "link": null,
+        "text": "Sweet like rainbows in the winter...miss u pug and partner'"
+    },
+    {
+        "link": null,
+        "text": "Cant believe the amount of work it took to get this out. Worth every bit. Watch the funeral so you can feel the pain"
+    },
+    {
+        "link": null,
+        "text": "has anyone considered the fact that the death toll from the dragon wars is much higher than anyone realizes?"
+    },
+    {
+        "link": null,
+        "text": "I dont like when people troll me but i do like when people ask me how my brain works"
+    },
+    {
+        "link": null,
+        "text": "in 10 minutes ill be watching dota 2 for the first time in 5 years"
+    },
+    {
+        "link": null,
+        "text": "If you are reading this and live in India my ass is your goddamed prime minister"
+    },
+    {
+        "link": null,
+        "text": "Another day, another stream where i tell a joke and the viewers laugh. Hope yall enjoy"
+    },
+    {
+        "link": null,
+        "text": "I am not your average redditor either you have never seen true /r/dota2 passionate redditors or you have not. I am just some guy who likes to complain"
+    },
+    {
+        "link": null,
+        "text": "has anyone considered the idea that Mario & Sonic at the Olympic Winter Games would be a fantastic movie"
+    },
+    {
+        "link": null,
+        "text": "Dota personalities if you are reading this you are my arch enemy and I am ready for the curse you will bring"
+    },
+    {
+        "link": null,
+        "text": "When i was doin push ups my dick hurt and i spent the next hour fixing it"
+    },
+    {
+        "link": null,
+        "text": "Last night i had a dream that i was in charge of a half billion people who wanted to be part of the greatest esports event of all time. In that same dream i was sober."
+    },
+    {
+        "link": null,
+        "text": "Defeating is not enough for me. I want to kill people. That is not enough for me. I want to be King JuJitsu player or the next big thing."
+    },
+    {
+        "link": null,
+        "text": "Im calling this new hot dog concept the \"ocean dog\" for no reason. If you ever googled \"the best\" you will find no article. I know this because I ate at least 2."
+    },
+    {
+        "link": null,
+        "text": "There comes a day when every man must decide if he wants to live his entire adult life in fear of one man or if he wants to live forever in shame"
+    },
+    {
+        "link": null,
+        "text": "All i want for christmas is my 1 hour long testimonial video about how much I hate you @PlayArtifact"
+    },
+    {
+        "link": null,
+        "text": "imma make my own hour and a half long lore movie using the powers at my command"
+    },
+    {
+        "link": null,
+        "text": "oh god someone help i am confused as to why people are having a hard time accepting me and my art"
+    },
+    {
+        "link": null,
+        "text": "Mr roo likes candy maybe its because he was too young to appreciate the taste of adult flesh just because he likes to eat raw horse meat"
+    },
+    {
+        "link": null,
+        "text": "Some things in life are meant to be shared. Things that people dont see. Things that they cant protect. Share these moments and let the music wash over you like a rose. "
+    },
+    {
+        "link": null,
+        "text": "I predict the only strategy for Blizzard Entertainment is to release two different heros: one for female players and one for male players. Otherwise, esports are for children. But what if there was a third hero who was only available if you won the game? What if there was a \"pay to win\" mode where you could potentially win money but you never paid for it?"
+    },
+    {
+        "link": null,
+        "text": "Theres probably a reason these 3 hour hampster streams are so popular - they deconstruct heros for us"
+    },
+    {
+        "link": null,
+        "text": "Gone are the days where I had to wear pants every day. Nowadays I just wear tee shirts with a knit cap. I don't deserve to be in Prison."
+    },
+    {
+        "link": null,
+        "text": "there comes a day when every American has to make a hard decision: which path will protect our freedoms the most, while also doing the least amount of damage?"
+    },
+    {
+        "link": null,
+        "text": "Gone are the days of me running around naked fighting everything I see. I'm too scared to go back."
+    },
+    {
+        "link": null,
+        "text": "ur days as a pro gamer are numbered if you don't want to miss a moment of my wisdom you fucking idiot LOL"
+    },
+    {
+        "link": null,
+        "text": "Penis: u are killing it"
+    },
+    {
+        "link": null,
+        "text": "I asked my audience on r/dota2 what they wanted for ti9 and the answer was almost always the same. They want 1v1 midas mode 2 all the time."
+    },
+    {
+        "link": null,
+        "text": "Im washing dishes and putting them away in the dishwasher...never a good look"
+    },
+    {
+        "link": null,
+        "text": "i kno these places is haunted by the ghosts of the departed ive seen them all"
+    },
+    {
+        "link": null,
+        "text": "i dont believe in numbers. I believe in logic. Numbers are shit"
+    },
+    {
+        "link": null,
+        "text": "Another powerful moment in kung fu panda history!"
+    },
+    {
+        "link": null,
+        "text": "Did you know they made Truman Capote's HOSTAGE NEGLIGENCE PROJECT into a MOONDUCK TOURNEY?"
+    },
+    {
+        "link": null,
+        "text": "very odd that there are no golden retriever heros in the game right now"
+    },
+    {
+        "link": null,
+        "text": "This is where meme magic happens i swear. I will prove it on this plane i kno it"
+    },
+    {
+        "link": null,
+        "text": "Alright my vulva is dry as a bone and my bowels are boiling...is there anyone out there that likes dirty jokes and claustrophobic environments"
+    },
+    {
+        "link": null,
+        "text": "Hello again, and welcome to another motherfucking day of playing games"
+    },
+    {
+        "link": null,
+        "text": "The bond that binds man and beast is tested and is unbreakable. Resist the change bring order back to the chaos world"
+    },
+    {
+        "link": null,
+        "text": "PLEBS BEARS SMILIN'"
+    },
+    {
+        "link": null,
+        "text": "Never been to a live concert, never mind a dota concert either, it's all the same shit. Idiots"
+    },
+    {
+        "link": null,
+        "text": "the only logical conclusion is that dota players and fans have been playing this for so long it's become a meme"
+    },
+    {
+        "link": null,
+        "text": "If i see one more goddamed creature getting ready for christmas i'LL PRAY FOR THEM"
+    },
+    {
+        "link": null,
+        "text": "When the sun goes down you know you are going to the moon"
+    },
+    {
+        "link": null,
+        "text": "Alright everyone starts beep beep beep beep whooo hoo hoo whats happening here"
+    },
+    {
+        "link": null,
+        "text": "Greetings from Portugal, where I was welcomed by the whole of the nation. Here is a small group of people who have influenced me greatly. All hail, Jorjor"
+    }
 ]

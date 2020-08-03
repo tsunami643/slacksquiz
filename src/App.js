@@ -1,7 +1,10 @@
 import React, {useState, useEffect} from 'react';
+import QuestionResult from './components/QuestionResult.js';
 import MyFakeTweet from './components/MyFakeTweet.js';
 import {Container, Row, Col, Button, Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Apocalypses from './data/apocalypses.json';
 
 import SlacksTweets from './data/slacks.json';
 import FakeTweets from './data/fake.json';
@@ -14,9 +17,9 @@ function App() {
   const [alreadyAskedQuestions, setAlreadyAskedQuestions] = useState([]);
 
   const [currentTweet, setCurrentTweet] = useState(SelectTweet());
-
-
   const [answerText, setAnswerText] = useState("");
+
+  const [showingResult, setShowingResult] = useState(false)
 
   return (
     <Container>
@@ -24,16 +27,22 @@ function App() {
         <br/>
         <Row>
           <Col>
-              <MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" style={{width: "100%"}}/>
+              {showingResult ? 
+                <QuestionResult link={currentTweet.link} fakeTweet={<MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" style={{width: "100%"}}/>}/>      
+              : 
+                <MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" style={{width: "100%"}}/>
+              }
+              
           </Col>
           <Col>
               <Card>
                 <Card.Body>   
                   <h3>@SirActionSlacks or @DeepSlacks?</h3>
-                  <p>For millennia, humanity has always pondered how they will meet their end. Nuclear warfare. Global warming. Cloud9 winning a game of Dota 2. All good candidates. But there is one possibility that stands above all others: The Robot Uprising.</p>
+                  <p>For millennia, humanity has always pondered how they will meet their end. Nuclear warfare. Global warming. {Apocalypses[Math.floor(Math.random() * Apocalypses.length)]}. All good candidates. But there is one possibility that stands above all others: The Robot Uprising.</p>
                   <p>Can you tell which tweets are written by Dota's own SirActionSlacks and which are simply an imitation?</p>
-                  <Button onClick={AnswerQuestion} id="slacks" style={{marginRight: "10px"}}>Slacks 👨‍</Button>
-                  <Button onClick={AnswerQuestion} id="fake" style={{marginRight: "10px"}}>Deep Slacks 🤖</Button>
+                  <Button disabled={showingResult} onClick={AnswerQuestion} id="slacks" style={{marginRight: "10px"}}>Slacks 👨‍</Button>
+                  <Button disabled={showingResult} onClick={AnswerQuestion} id="fake" style={{marginRight: "10px"}}>Deep Slacks 🤖</Button>
+                  {showingResult && <Button onClick={NextQuestion} id="next-question" style={{marginRight: "10px"}}>Next Question</Button>}
                   <span style={{fontWeight: "bold"}}>{score}/{questionsAnswered}</span>
                   <p>{answerText}</p>
                 </Card.Body>
@@ -42,8 +51,7 @@ function App() {
         </Row>
         
         <br/>
-        <div>Question mark icon made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a></div>
+        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a> and provided by <a href="https://twitter.com/tsunami643">@tsunami643</a></div>
         </div>
         <div>Credit to <a href="https://twitter.com/tsunami643">@tsunami643</a> for creating <a href="https://twitter.com/DeepSlacks">@DeepSlacks</a> and <a href="https://twitter.com/SirActionSlacks">@SirActionSlacks</a> for existing.</div>
     </Container>
@@ -63,13 +71,13 @@ function App() {
       while (alreadyAskedQuestions.map((question) => question.tweet).includes(tweet)) {
         tweet = FakeTweets[Math.floor(Math.random() * FakeTweets.length)]
       }
-      return {text: tweet, answer: "fake"};
+      return {text: tweet.text.split('https')[0], link: tweet.link, answer: "fake"};//get rid of any pictures
     }else{//slacks
       var tweet = SlacksTweets[Math.floor(Math.random() * SlacksTweets.length)]
       while (alreadyAskedQuestions.map((question) => question.tweet).includes(tweet)) {
         tweet = SlacksTweets[Math.floor(Math.random() * SlacksTweets.length)]
       }
-      return {text: tweet, answer: "slacks"};
+      return {text: tweet.text.split('https')[0], link: tweet.link,  answer: "slacks"};
     }
   }
 
@@ -79,11 +87,17 @@ function App() {
     if (ev.target.id === currentTweet.answer) {
       setScore(score + 1);
       setAnswerText("Correct!");
-      setCurrentTweet(SelectTweet());
+      setShowingResult(true);
     }else{
       setAnswerText("Wrong!");
-      setCurrentTweet(SelectTweet());
+      setShowingResult(true);
     }
+  }
+
+  function NextQuestion(ev){
+    setShowingResult(false);
+    setAnswerText("");
+    setCurrentTweet(SelectTweet());
   }
 
 }
