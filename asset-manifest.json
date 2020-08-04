@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/slacks-or-deep-slacks/static/js/main.8fd38508.chunk.js",
-    "main.js.map": "/slacks-or-deep-slacks/static/js/main.8fd38508.chunk.js.map",
+    "main.js": "/slacks-or-deep-slacks/static/js/main.2ada6c78.chunk.js",
+    "main.js.map": "/slacks-or-deep-slacks/static/js/main.2ada6c78.chunk.js.map",
     "runtime-main.js": "/slacks-or-deep-slacks/static/js/runtime-main.f54acc00.js",
     "runtime-main.js.map": "/slacks-or-deep-slacks/static/js/runtime-main.f54acc00.js.map",
-    "static/css/2.de12a89c.chunk.css": "/slacks-or-deep-slacks/static/css/2.de12a89c.chunk.css",
-    "static/js/2.50c505d1.chunk.js": "/slacks-or-deep-slacks/static/js/2.50c505d1.chunk.js",
-    "static/js/2.50c505d1.chunk.js.map": "/slacks-or-deep-slacks/static/js/2.50c505d1.chunk.js.map",
+    "static/css/2.093d98ae.chunk.css": "/slacks-or-deep-slacks/static/css/2.093d98ae.chunk.css",
+    "static/js/2.9c112854.chunk.js": "/slacks-or-deep-slacks/static/js/2.9c112854.chunk.js",
+    "static/js/2.9c112854.chunk.js.map": "/slacks-or-deep-slacks/static/js/2.9c112854.chunk.js.map",
     "index.html": "/slacks-or-deep-slacks/index.html",
-    "precache-manifest.6a94d46ec9586dccd8aa53cea90229f5.js": "/slacks-or-deep-slacks/precache-manifest.6a94d46ec9586dccd8aa53cea90229f5.js",
+    "precache-manifest.b055579cc22fdf554ceeaa7c04a9f157.js": "/slacks-or-deep-slacks/precache-manifest.b055579cc22fdf554ceeaa7c04a9f157.js",
     "service-worker.js": "/slacks-or-deep-slacks/service-worker.js",
-    "static/css/2.de12a89c.chunk.css.map": "/slacks-or-deep-slacks/static/css/2.de12a89c.chunk.css.map",
-    "static/js/2.50c505d1.chunk.js.LICENSE.txt": "/slacks-or-deep-slacks/static/js/2.50c505d1.chunk.js.LICENSE.txt"
+    "static/css/2.093d98ae.chunk.css.map": "/slacks-or-deep-slacks/static/css/2.093d98ae.chunk.css.map",
+    "static/js/2.9c112854.chunk.js.LICENSE.txt": "/slacks-or-deep-slacks/static/js/2.9c112854.chunk.js.LICENSE.txt",
+    "static/media/deepslacks.jpg": "/slacks-or-deep-slacks/static/media/deepslacks.3b16d2ca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f54acc00.js",
-    "static/css/2.de12a89c.chunk.css",
-    "static/js/2.50c505d1.chunk.js",
-    "static/js/main.8fd38508.chunk.js"
+    "static/css/2.093d98ae.chunk.css",
+    "static/js/2.9c112854.chunk.js",
+    "static/js/main.2ada6c78.chunk.js"
   ]
 }
