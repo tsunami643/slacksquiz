@@ -1,12 +1,20 @@
-import React from 'react';
-import {TwitterTweetEmbed} from 'react-twitter-embed';
+import React, {useEffect} from 'react';
+import {Tweet} from 'react-twitter-widgets';
+import {Card} from 'react-bootstrap';
 
 function QuestionResult(props){
     if (props.link) {
         var splitLink = props.link.split("/")
-        return <TwitterTweetEmbed
-            tweetId={`${splitLink[splitLink.length - 1]}`}//last element
-        />
+        return (
+            <Card>
+                <Card.Body>
+                <Tweet
+                    tweetId={`${splitLink[splitLink.length - 1]}`}//last element
+                />
+
+                </Card.Body>
+            </Card>
+        )
     }else{
         return props.fakeTweet;
     }
