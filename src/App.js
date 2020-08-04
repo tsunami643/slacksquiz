@@ -23,35 +23,37 @@ function App() {
 
   return (
     <Container>
-      <div className="App">
+      <div className="App">       
         <br/>
         <Row>
-          <Col>
+          <Col sm={12} md={6}>
               {showingResult ? 
-                <QuestionResult link={currentTweet.link} fakeTweet={<MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" style={{width: "100%"}}/>}/>      
+                <QuestionResult link={currentTweet.link} fakeTweet={<MyFakeTweet tweetText={currentTweet.text} nickName="DeepSlacks" name="Deep Slacks Bot" deepFake style={{width: "100%"}}/>}/>      
               : 
-                <MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" style={{width: "100%"}}/>
+                <MyFakeTweet tweetText={currentTweet.text} name="SlacksOrFake" nickName="SlacksOrFake" style={{width: "100%"}}/>
               }
               
           </Col>
-          <Col>
+          <Col sm={12} md={6}>
               <Card>
-                <Card.Body>   
-                  <h3>@SirActionSlacks or @DeepSlacks?</h3>
+                <Card.Body>  
+                  <h3>@SirActionSlacks or @DeepSlacks?</h3> 
+                  <div style={{marginBottom: "5px"}}>
+                    <Button disabled={showingResult} onClick={AnswerQuestion} id="slacks" style={{marginRight: "10px"}}>Slacks 👨‍</Button>
+                    <Button disabled={showingResult} onClick={AnswerQuestion} id="fake" style={{marginRight: "10px"}}>Deep Slacks 🤖</Button>
+                    <span style={{fontWeight: "bold"}}>{score}/{questionsAnswered}</span><br/>
+                  </div>
+                  {showingResult && <Button onClick={NextQuestion} id="next-question" style={{marginBottom: "10px"}}>Next Question</Button>}
+                  <p>{answerText}</p>
                   <p>For millennia, humanity has always pondered how they will meet their end. Nuclear warfare. Global warming. {Apocalypses[Math.floor(Math.random() * Apocalypses.length)]}. All good candidates. But there is one possibility that stands above all others: The Robot Uprising.</p>
                   <p>Can you tell which tweets are written by Dota's own SirActionSlacks and which are simply an imitation?</p>
-                  <Button disabled={showingResult} onClick={AnswerQuestion} id="slacks" style={{marginRight: "10px"}}>Slacks 👨‍</Button>
-                  <Button disabled={showingResult} onClick={AnswerQuestion} id="fake" style={{marginRight: "10px"}}>Deep Slacks 🤖</Button>
-                  {showingResult && <Button onClick={NextQuestion} id="next-question" style={{marginRight: "10px"}}>Next Question</Button>}
-                  <span style={{fontWeight: "bold"}}>{score}/{questionsAnswered}</span>
-                  <p>{answerText}</p>
                 </Card.Body>
               </Card>
           </Col>        
         </Row>
         
         <br/>
-        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a> and provided by <a href="https://twitter.com/tsunami643">@tsunami643</a></div>
+        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a>. and provided by <a href="https://twitter.com/tsunami643">@tsunami643</a></div>
         </div>
         <div>Credit to <a href="https://twitter.com/tsunami643">@tsunami643</a> for creating <a href="https://twitter.com/DeepSlacks">@DeepSlacks</a> and <a href="https://twitter.com/SirActionSlacks">@SirActionSlacks</a> for existing.</div>
     </Container>

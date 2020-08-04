@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import QuestionMarkImage from '../img/question.png';
+import DeepSlacksImage from '../img/deepslacks.jpg';
 
 import {Card} from 'react-bootstrap';
 
@@ -8,11 +9,13 @@ import 'fake-tweet/build/index.css';
 
 
 function MyFakeTweet(props){
+
+
     const config = {
         user: {
-          nickname: `${props.name}`,
+          nickname: `${props.nickName}`,
           name: `${props.name}`,
-          avatar: QuestionMarkImage,
+          avatar: !props.deepFake ? QuestionMarkImage : DeepSlacksImage,
           verified: false,
           locked: false
         },
