@@ -53,7 +53,7 @@ function App() {
         </Row>
         
         <br/>
-        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a>. and provided by <a href="https://twitter.com/tsunami643">@tsunami643</a></div>
+        <div>Created by <a href="https://twitter.com/HarryNegus">@harrynegus</a> | <a href="https://www.reddit.com/user/d2-match-bot-speaks">/u/d2-match-bot-speaks</a> with <a href="https://reactjs.org/">React</a>. Tweets grabbed using <a href="https://www.tweepy.org/">Tweepy</a> and provided by <a href="https://twitter.com/tsunami643">@tsunami643</a></div>
         </div>
         <div>Credit to <a href="https://twitter.com/tsunami643">@tsunami643</a> for creating <a href="https://twitter.com/DeepSlacks">@DeepSlacks</a> and <a href="https://twitter.com/SirActionSlacks">@SirActionSlacks</a> for existing.</div>
     </Container>
